@@ -304,17 +304,17 @@ h2 span {
         /* Oscurece la zona izquierda */
         linear-gradient(
             90deg,
-            rgba(8, 11, 18, 0.98) 0%,
-            rgba(8, 11, 18, 0.94) 28%,
-            rgba(8, 11, 18, 0.72) 55%,
-            rgba(8, 11, 18, 0.82) 100%
+            rgba(8, 11, 18, 0.88) 0%,
+            rgba(8, 11, 18, 0.78) 28%,
+            rgba(8, 11, 18, 0.55) 55%,
+            rgba(8, 11, 18, 0.66) 100%
         ),
 
         /* Oscurece parte inferior */
         linear-gradient(
             180deg,
-            rgba(8, 11, 18, 0.22),
-            rgba(8, 11, 18, 0.92)
+            rgba(8, 11, 18, 0.12),
+            rgba(8, 11, 18, 0.72)
         ),
 
         /* TU FOTO */
@@ -385,9 +385,9 @@ h2 span {
     background:
         linear-gradient(
             90deg,
-            rgba(8, 11, 18, 0.10),
+            rgba(8, 11, 18, 0.06),
             transparent 55%,
-            rgba(8, 11, 18, 0.45)
+            rgba(8, 11, 18, 0.30)
         );
 
     z-index: 0;
@@ -939,9 +939,9 @@ h2 span {
 }
 
 .domain-card {
-    min-height: 220px;
+    min-height: 170px;
 
-    padding: 25px;
+    padding: 22px;
 
     border-right: 1px solid var(--line);
 
@@ -963,7 +963,7 @@ h2 span {
 .domain-card h3 {
     font-size: 19px;
 
-    margin-top: 20px;
+    margin-top: 14px;
 }
 
 .domain-card p {
@@ -973,7 +973,7 @@ h2 span {
 
     line-height: 1.7;
 
-    margin-top: 12px;
+    margin-top: 8px;
 }
 
 
@@ -1467,13 +1467,15 @@ h2 span {
 .contact-actions {
     display: flex;
 
+    width: min(100%, 558px);
+
     justify-content: center;
 
     flex-wrap: wrap;
 
     gap: 9px;
 
-    margin-top: 28px;
+    margin: 28px auto 0;
 }
 
 
