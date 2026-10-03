@@ -1719,6 +1719,15 @@ h2 span {
 }
 
 /* =========================
+   CENTRADO DE BOTONES EN MOBILE
+   ========================= */
+@media (max-width: 640px) {
+    .contact-actions {
+        align-items: center;
+    }
+}
+
+/* =========================
    LOADER DESCARGA CV
    ========================= */
 
